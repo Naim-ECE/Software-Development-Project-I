@@ -1,0 +1,513 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  min-height: 100vh;
+}
+
+.logo {
+  height: 110px;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  padding: 0.1rem 0;
+  top: 0;
+  left: 0;
+}
+
+header nav {
+  background-color: transparent;
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  /* height: 50px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header ul a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 0 2rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+/* .search a {
+  font-size: 1.1rem;
+  padding: 0 3rem;
+} */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  z-index: 90;
+  width: 16.16%;
+  font-size: 2rem;
+  background-color: rgb(255, 255, 255, 0.2);
+  backdrop-filter: blur(18px);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5%;
+  padding-top: 60px;
+  transition: all 0.45s ease;
+}
+
+header ul a:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(63, 63, 63, 0.1);
+  border-radius: 1.2rem;
+  transition: 0.45s ease;
+}
+
+.close {
+  color: rgb(0, 0, 0);
+}
+
+.sidebar li:nth-child(n + 1) {
+  width: 100%;
+}
+
+.sidebar li a {
+  color: rgb(0, 0, 0);
+}
+
+.sidebar li a {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  transition: color 0.45s ease;
+}
+
+.sidebar li:hover {
+  background-color: rgba(63, 63, 63, 0.5);
+  border-radius: 0.5rem;
+}
+
+.sidebar li:hover a {
+  color: white;
+}
+
+.burger {
+  padding-left: 1.8rem;
+}
+
+.show {
+  transition: 2s ease;
+}
+
+.burger a {
+  padding: 0;
+  display: flex;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background-color: rgba(115, 115, 115, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  justify-content: center;
+  align-items: center;
+}
+
+.burger .bar {
+  position: relative;
+  width: 56%;
+  height: 2px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+.burger .bar::before,
+.burger .bar::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 100%;
+  background-color: inherit;
+  border-radius: 2px;
+}
+
+.burger .bar::before {
+  top: -4.2px;
+}
+
+.burger .bar::after {
+  top: 4.2px;
+}
+
+.burger a:hover {
+  border: 0.2rem solid black;
+  transition: 0.45s ease;
+}
+
+main {
+  position: relative;
+  background-color: aquamarine;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+main .bg-img {
+  position: absolute;
+  width: 110%;
+  /* transform: translate(calc(-50%), calc(-50%)); */
+  /* background-size: cover; */
+  transition: 0.45s cubic-bezier(0.02, 0.49, 0.32, 0.99);
+}
+
+.parallax {
+  pointer-events: none;
+  transition: 0.45s cubic-bezier(0.02, 0.49, 0.32, 0.99);
+}
+
+.pahar-left {
+  position: absolute;
+  width: 82%;
+  left: calc(50% - 10%);
+  top: calc(50% + 15.7%);
+  transform: translate(-50%, -50%);
+}
+
+.pahar-right {
+  position: absolute;
+  width: 70.833%;
+  left: calc(50% + 16%);
+  top: calc(50% + 13.33%);
+  transform: translate(-50%, -50%);
+}
+
+.pahar-6 {
+  position: absolute;
+  width: 72.5%;
+  left: calc(50% - 5.83%);
+  top: calc(50% + 13.2%);
+  transform: translate(-50%, -50%);
+}
+
+.pahar-5 {
+  position: absolute;
+  width: 25%;
+  left: calc(50% + 0rem);
+  top: calc(50% + 35%);
+  transform: translate(-50%, -50%);
+}
+
+.pahar-2 {
+  position: absolute;
+  width: 54.17%;
+  left: calc(50% - 25.83%);
+  top: calc(50% + 5.3%);
+  transform: translate(-50%, -50%);
+}
+
+.pahar-4 {
+  position: absolute;
+  width: 58.3%;
+  left: calc(50% + 17.86%);
+  top: calc(50% + 10%);
+  transform: translate(-50%, -50%);
+  z-index: 6;
+}
+
+.text {
+  position: absolute;
+  z-index: 5;
+  top: calc(50% - 10.37%);
+  left: calc(50%);
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  transform: translate(-50%, -50%);
+  font-family: "Kanit", sans-serif;
+}
+
+.text h2 {
+  font-weight: 100;
+  font-size: 5rem;
+  line-height: 0.88;
+}
+
+.text h1 {
+  font-weight: 900;
+  font-size: 6rem;
+  line-height: 0.88;
+}
+
+.sunrays {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.vignette {
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0) 65%,
+    rgba(0, 0, 0, 0.7)
+  );
+}
+
+@media (max-width: 1750px) {
+  .text h1 {
+    font-size: 5.4rem;
+  }
+  .text h2 {
+    font-size: 4.7rem;
+  }
+  .pahar-left {
+    width: initial;
+    height: 131.2%;
+  }
+
+  .pahar-right {
+    width: initial;
+    height: 113.3328%;
+  }
+
+  .pahar-6 {
+    width: initial;
+    height: 116%;
+  }
+
+  .pahar-5 {
+    width: initial;
+    height: 40%;
+  }
+
+  .pahar-2 {
+    width: initial;
+    height: 86.672%;
+  }
+
+  .pahar-4 {
+    width: initial;
+    height: 93.28%;
+    top: calc(50% + 22%);
+  }
+  .bg-img {
+    width: initial;
+    height: 176%;
+  }
+}
+
+@media (max-width: 1363px) {
+  .text h1 {
+    font-size: 5.4rem;
+  }
+  .text h2 {
+    font-size: 4.7rem;
+  }
+  .pahar-left {
+    width: initial;
+    height: 131.2%;
+  }
+
+  .pahar-right {
+    width: initial;
+    height: 113.3328%;
+  }
+
+  .pahar-6 {
+    width: initial;
+    height: 116%;
+  }
+
+  .pahar-5 {
+    width: initial;
+    height: 40%;
+  }
+
+  .pahar-2 {
+    width: initial;
+    height: 86.672%;
+    left: calc(50% - 40%);
+    top: calc(50% + 14%);
+  }
+
+  .pahar-4 {
+    width: initial;
+    height: 93.28%;
+    left: calc(50% + 20%);
+    top: calc(50% + 26%);
+  }
+  .bg-img {
+    width: initial;
+    height: 186%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .text h1 {
+    font-size: 5.4rem;
+    -webkit-text-stroke: 0.004px rgb(0, 0, 0, 0.6);
+  }
+  .text h2 {
+    font-size: 4.7rem;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+  }
+  .pahar-left {
+    width: initial;
+    height: 131.2%;
+  }
+
+  .pahar-right {
+    width: initial;
+    height: 113.3328%;
+  }
+
+  .pahar-6 {
+    width: initial;
+    height: 116%;
+  }
+
+  .pahar-5 {
+    width: initial;
+    height: 40%;
+  }
+
+  .pahar-2 {
+    width: initial;
+    height: 86.672%;
+  }
+
+  .pahar-4 {
+    width: initial;
+    height: 93.28%;
+    top: calc(50% + 22%);
+  }
+  .bg-img {
+    width: initial;
+    height: 176%;
+  }
+  .sidebar {
+    width: 20.2%;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 725px) {
+  .text h1 {
+    font-size: 4.4rem;
+    line-height: 1.1;
+    -webkit-text-stroke: 1px rgb(12, 99, 0, 0.6);
+  }
+  .text h2 {
+    font-size: 3.9rem;
+    line-height: 1.1;
+    -webkit-text-stroke: 1px rgb(12, 99, 0);
+  }
+  header nav {
+    padding: 0 1rem;
+  }
+  .logo {
+    width: 99px;
+  }
+  header ul a {
+    font-size: 0.73rem;
+    padding: 0 0.9rem;
+  }
+  .search a {
+    font-size: 0.85rem;
+    padding: 0 1.8rem;
+  }
+  .burger {
+    padding-left: 0.9rem;
+  }
+  .burger a {
+    height: 30px;
+    width: 30px;
+  }
+  .bg-img {
+    width: initial;
+    height: 176%;
+  }
+  .pahar-left {
+    width: initial;
+    height: 131.2%;
+  }
+
+  .pahar-right {
+    width: initial;
+    height: 113.3328%;
+  }
+
+  .pahar-6 {
+    width: initial;
+    height: 116%;
+  }
+
+  .pahar-5 {
+    width: initial;
+    height: 40%;
+  }
+
+  .pahar-2 {
+    width: initial;
+    height: 86.672%;
+  }
+
+  .pahar-4 {
+    width: initial;
+    height: 93.28%;
+    top: calc(50% + 22%);
+  }
+  .sidebar {
+    width: 50.05%;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 520px) {
+  .text h1 {
+    font-size: 2.9rem;
+    -webkit-text-stroke: 0.004px rgb(10, 85, 0, 0.8);
+  }
+  .text h2 {
+    font-size: 2.2rem;
+    -webkit-text-stroke: 1px rgb(12, 99, 0);
+  }
+  .pahar-4 {
+    top: calc(50% + 22%);
+  }
+  .sidebar {
+    width: 50.05%;
+    height: 100vh;
+  }
+}
