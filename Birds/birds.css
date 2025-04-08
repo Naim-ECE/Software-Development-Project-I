@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  min-height: 100vh;
+  background-color: aqua;
+}
+
+.logo {
+  height: 110px;
+}
+
+header {
+  position: sticky;
+  width: 100%;
+  z-index: 10;
+  padding: 0.1rem 0;
+  top: 0;
+  left: 0;
+}
+
+header nav {
+  background-color: red;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+  /* height: 50px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header ul a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 0 2rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  z-index: 90;
+  width: 16.16%;
+  font-size: 2rem;
+  background-color: rgb(255, 255, 255, 0.2);
+  backdrop-filter: blur(18px);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5%;
+  padding-top: 60px;
+  transition: all 0.45s ease;
+}
+
+header ul a:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(63, 63, 63, 0.1);
+  border-radius: 1.2rem;
+  transition: 0.45s ease;
+}
+
+.close {
+  color: rgb(0, 0, 0);
+}
+
+.sidebar li:nth-child(n + 1) {
+  width: 100%;
+}
+
+.sidebar li a {
+  color: rgb(0, 0, 0);
+}
+
+.sidebar li a {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  transition: color 0.45s ease;
+}
+
+.sidebar li:hover {
+  background-color: rgba(63, 63, 63, 0.5);
+  border-radius: 0.5rem;
+}
+
+.sidebar li:hover a {
+  color: white;
+}
+
+.burger {
+  padding-left: 1.8rem;
+}
+
+.show {
+  transition: 2s ease;
+}
+
+.burger a {
+  padding: 0;
+  display: flex;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background-color: rgba(115, 115, 115, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  justify-content: center;
+  align-items: center;
+}
+
+.burger .bar {
+  position: relative;
+  width: 56%;
+  height: 2px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+.burger .bar::before,
+.burger .bar::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 100%;
+  background-color: inherit;
+  border-radius: 2px;
+}
+
+.burger .bar::before {
+  top: -4.2px;
+}
+
+.burger .bar::after {
+  top: 4.2px;
+}
+
+.burger a:hover {
+  border: 0.2rem solid black;
+  transition: 0.45s ease;
+}
+
+.animals {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-row: auto;
+    grid-column: auto;
+}
+
+.content {
+    height: 12rem;
+    width: 12rem;
+    border: 1px solid black;
+}
+
+
+
+@media (max-width: 1750px) {
+  
+}
+
+@media (max-width: 1363px) {
+  
+}
+
+@media (max-width: 1100px) {
+
+  .sidebar {
+    width: 20.2%;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 725px) {
+
+  header nav {
+    padding: 0 1rem;
+  }
+  .logo {
+    width: 99px;
+  }
+  header ul a {
+    font-size: 0.73rem;
+    padding: 0 0.9rem;
+  }
+  
+  .burger {
+    padding-left: 0.9rem;
+  }
+  .burger a {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .sidebar {
+    width: 50.05%;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 520px) {
+  .sidebar {
+    width: 50.05%;
+    height: 100vh;
+  }
+}
