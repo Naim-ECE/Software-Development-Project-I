@@ -46,11 +46,11 @@ window.addEventListener("mousemove", (event) => {
   }px)) perspective(2000px) translateZ(${zValue2}px)`;
 });
 
-if (window.innerWidth >= 725) {
-  main.style.maxHeight = `${window.innerWidth * 0.6}px`;
-} else {
-  main.style.maxHeight = `${window.innerWidth * 1.6}px`;
-}
+// if (window.innerWidth >= 725) {
+//   main.style.maxHeight = `${window.innerWidth * 0.6}px`;
+// } else {
+//   main.style.maxHeight = `${window.innerWidth * 1.6}px`;
+// }
 
 let timeline = gsap.timeline();
 
