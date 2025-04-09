@@ -171,16 +171,22 @@ header ul a:hover {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fill, 400px);
-  grid-template-rows: repeat(3, 400px);
+  grid-template-rows: repeat(auto-fill, 400px);
   justify-content: space-evenly;
   gap: 20px;
 }
 
 .content {
-  /* height: 20rem;
-  width: 20rem; */
+  height: 400px;
   background-color: blueviolet;
   border: 1px solid black;
+  cursor: pointer;
+}
+
+.obj1 {
+  background-image: url(./content_images/tiger.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 @media (max-width: 1750px) {
@@ -226,5 +232,18 @@ header ul a:hover {
   .sidebar {
     width: 50.05%;
     height: 100vh;
+  }
+  .animals {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(auto-fill, 400px);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .content {
+    height: 400px;
   }
 }
