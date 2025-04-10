@@ -65,7 +65,7 @@ header ul a {
   z-index: 90;
   width: 16.16%;
   font-size: 2rem;
-  background-color: rgb(255, 255, 255, 0.9);
+  background-color: rgb(255, 255, 255, 0.2);
   backdrop-filter: blur(18px);
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
   display: none;
@@ -166,153 +166,29 @@ header ul a:hover {
   transition: 0.45s ease;
 }
 
-.animals {
-  height: 100%;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 400px);
-  grid-template-rows: repeat(auto-fill, 400px);
-  justify-content: space-evenly;
-  gap: 20px;
-}
-
-.content {
-  height: 400px;
-  background-color: rgb(223, 189, 255);
-  border: 1px solid black;
-  cursor: pointer;
-}
-
-.obj1 {
-  background-image: url(./content_images/catfish.jpg);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-.obj2 {
-  background-image: url(./content_images/doiphin.jpg);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-.obj3 {
-  background-image: url(./content_images/goldfish.jpg);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-.obj4 {
-  background-image: url(./content_images/koiFish.jpg);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-.obj5 {
-  background-image: url(./content_images/rohuFish.jpg);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-.obj6 {
-  background-image: url(./content_images/shark.jpg);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-.obj7 {
-  background-image: url(./content_images/tuna.jpg);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-.obj8 {
-  background-image: url(./content_images/whale.jpg);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-.tag {
-  height: 80px;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  background-color: black;
-  z-index: 2;
-  font-size: 3rem;
-  text-align: center;
-  border: 1px solid black;
-  color: rgb(255, 255, 255);
-}
-
-.content:hover {
-  transform: scale(1.02);
-  border: 0.3rem black solid;
-  transition: 0.4s ease;
-}
-
-@media (max-width: 1750px) {
-}
-
-@media (max-width: 1363px) {
-}
-
-@media (max-width: 1100px) {
-  .sidebar {
-    width: 20.2%;
+.container {
     height: 100vh;
-  }
-}
-
-@media (max-width: 725px) {
-  header nav {
-    padding: 0 1rem;
-  }
-  .logo {
-    width: 99px;
-  }
-  header ul a {
-    font-size: 0.73rem;
-    padding: 0 0.9rem;
-  }
-
-  .burger {
-    padding-left: 0.9rem;
-  }
-  .burger a {
-    height: 30px;
-    width: 30px;
-  }
-
-  .sidebar {
-    width: 50.05%;
-    height: 100vh;
-  }
-}
-
-@media (max-width: 520px) {
-  .sidebar {
-    width: 50.05%;
-    height: 100vh;
-  }
-  .animals {
-    height: 100%;
-    width: 100%;
+    width: 100vw;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(auto-fill, 400px);
-    justify-content: center;
-    align-items: center;
+    grid-auto-columns: minmax(100px, repeat(2, 2fr));
+    grid-auto-rows: repeat(2, 2fr);
     gap: 20px;
-  }
-  .content {
+}
+
+.contents {
+    
+    background-color: aqua;
+    border: 1px black solid;
+}
+
+.tag1 {
     height: 400px;
-  }
+}
+
+.tag2 {
+    height: 400px;
+}
+
+.tag3 {
+    width: 100%;
 }

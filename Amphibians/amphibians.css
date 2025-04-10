@@ -65,7 +65,7 @@ header ul a {
   z-index: 90;
   width: 16.16%;
   font-size: 2rem;
-  background-color: rgb(255, 255, 255, 0.2);
+  background-color: rgb(255, 255, 255, 0.9);
   backdrop-filter: blur(18px);
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
   display: none;
@@ -178,9 +178,84 @@ header ul a:hover {
 
 .content {
   height: 400px;
-  background-color: blueviolet;
+  background-color: rgb(223, 189, 255);
   border: 1px solid black;
   cursor: pointer;
+}
+
+.obj1 {
+  background-image: url(./content_images/anthracosauria2.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.obj2 {
+  background-image: url(./content_images/axolotl.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.obj3 {
+  background-image: url(./content_images/caecilians.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.obj4 {
+  background-image: url(./content_images/diplocaulus.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.obj5 {
+  background-image: url(./content_images/frog.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.obj6 {
+  background-image: url(./content_images/labyrinthodontia.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.obj7 {
+  background-image: url(./content_images/microsauria.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.obj8 {
+  background-image: url(./content_images/salamander.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.tag {
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: black;
+  z-index: 2;
+  font-size: 3rem;
+  text-align: center;
+  border: 1px solid black;
+  color: rgb(255, 255, 255);
+}
+
+.content:hover {
+  transform: scale(1.02);
+  border: 0.3rem black solid;
+  transition: 0.4s ease;
 }
 
 @media (max-width: 1750px) {

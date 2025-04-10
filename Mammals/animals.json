@@ -1,0 +1,12 @@
+[
+  {
+    "id": "tiger",
+    "name": "Tiger",
+    "image": "./content_images/tiger.jpg",
+    "detailsPage": "tiger.html",
+    "facts": {
+      "habitat": "Jungle",
+      "diet": "Carnivore"
+    }
+  }
+]
