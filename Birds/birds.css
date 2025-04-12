@@ -326,6 +326,9 @@ header ul a:hover {
 }
 
 @media (max-width: 520px) {
+  nav {
+    height: 70px;
+  }
   .sidebar {
     width: 50.05%;
     height: 100vh;
@@ -342,5 +345,9 @@ header ul a:hover {
   }
   .content {
     height: 400px;
+  }
+  .content p {
+    height: 50px;
+    font-size: 30px;
   }
 }
