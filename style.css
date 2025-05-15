@@ -190,8 +190,8 @@ main .bg-img {
 
 .pahar-left {
   position: absolute;
-  width: 82%;
-  left: calc(50% - 10%);
+  width: 62%;
+  left: calc(50% - 3rem);
   top: calc(50% + 15.7%);
   transform: translate(-50%, -50%);
 }
@@ -215,7 +215,7 @@ main .bg-img {
 .pahar-5 {
   position: absolute;
   width: 25%;
-  left: calc(50% + 0rem);
+  left: calc(50% + 5rem);
   top: calc(50% + 35%);
   transform: translate(-50%, -50%);
 }
@@ -293,7 +293,7 @@ main .bg-img {
   }
   .pahar-left {
     width: initial;
-    left: calc(50% + 8%);
+    left: calc(50% + 3%);
     top: calc(50% + 20%);
     height: 115.2%;
   }
@@ -364,7 +364,7 @@ main .bg-img {
   .pahar-2 {
     width: initial;
     height: 86.672%;
-    left: calc(50% - 40%);
+    left: calc(50% - 31%);
     top: calc(50% + 14%);
   }
 
@@ -392,6 +392,7 @@ main .bg-img {
   .pahar-left {
     width: initial;
     height: 131.2%;
+    left: calc(50% + 10%);
   }
 
   .pahar-right {
