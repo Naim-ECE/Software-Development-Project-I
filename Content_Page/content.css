@@ -167,28 +167,108 @@ header ul a:hover {
 }
 
 .container {
-    height: 100vh;
-    width: 100vw;
+    width: 100%;
     display: grid;
-    grid-auto-columns: minmax(100px, repeat(2, 2fr));
-    grid-auto-rows: repeat(2, 2fr);
     gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .contents {
-    
     background-color: aqua;
-    border: 1px black solid;
+    border: 1px solid black;
 }
 
-.tag1 {
-    height: 400px;
+/* Desktop - 2 columns with rectangle layout */
+@media (min-width: 804px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 400px 200px;
+    }
+    
+    .tag3 {
+        grid-column: 1 / -1;
+    }
 }
 
-.tag2 {
-    height: 400px;
+/* Mobile/Tablet - Vertical square grid */
+@media (max-width: 804px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+    
+    .contents {
+        aspect-ratio: 1;
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
 }
 
-.tag3 {
+/* Small phone optimization */
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 1100px) {
+  .sidebar {
+    width: 20.2%;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 725px) {
+  header nav {
+    padding: 0 1rem;
+  }
+  .logo {
+    width: 99px;
+  }
+  header ul a {
+    font-size: 0.73rem;
+    padding: 0 0.9rem;
+  }
+
+  .burger {
+    padding-left: 0.9rem;
+  }
+  .burger a {
+    height: 30px;
+    width: 30px;
+  }
+
+  .sidebar {
+    width: 50.05%;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 520px) {
+  nav {
+    height: 70px;
+  }
+  .sidebar {
+    width: 50.05%;
+    height: 100vh;
+  }
+  .animals {
+    height: 100%;
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(auto-fill, 400px);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .content {
+    height: 400px;
+  }
+  .content p {
+    height: 50px;
+    font-size: 30px;
+  }
 }
