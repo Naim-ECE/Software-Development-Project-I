@@ -23,3 +23,16 @@ menuBar.addEventListener("click", () => {
     void sideBar.offsetWidth;
     sideBar.classList.add("show");
   };
+
+  document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll('.content').forEach(card => {
+    card.addEventListener('click', () => {
+      const animalName = card.dataset.animal;
+      window.open(
+        `../Content_Page/content.html?category=birds&animal=${encodeURIComponent(animalName)}`,
+        '_blank',
+        'noopener,noreferrer'
+      );
+    });
+  });
+});

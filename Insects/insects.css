@@ -258,6 +258,15 @@ header ul a:hover {
   transition: 0.4s ease;
 }
 
+.insect-card {
+  background: linear-gradient(to bottom, #f9fbe7, #e6ee9c);
+}
+
+.insect-card .tag {
+  color: #827717;
+  font-weight: 600;
+}
+
 @media (max-width: 1750px) {
 }
 

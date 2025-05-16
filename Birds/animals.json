@@ -1,0 +1,148 @@
+{
+  "birds": {
+    "cassowary": {
+      "image": "../Birds/content_images/cassowary.jpg",
+      "information": {
+        "Animal Name": "Cassowary",
+        "Kingdom": "Animalia",
+        "Species": "<i>Casuarius casuarius</i>",
+        "Habitat": "Tropical rainforests",
+        "Food": "Frugivore (fruits, fungi)",
+        "Lifespan": "40-50 years"
+      },
+      "description": "Large flightless bird with distinctive casque on head, considered world's most dangerous bird."
+    },
+    "chicken": {
+      "image": "../Birds/content_images/chicken.jpg",
+      "information": {
+        "Animal Name": "Chicken",
+        "Kingdom": "Animalia",
+        "Species": "<i>Gallus gallus domesticus</i>",
+        "Habitat": "Worldwide domestication",
+        "Food": "Omnivore (grains, insects)",
+        "Lifespan": "5-10 years"
+      },
+      "description": "Domestic fowl widely raised for eggs and meat, with over 24 billion worldwide."
+    },
+    "duck": {
+      "image": "../Birds/content_images/duck.jpg",
+      "information": {
+        "Animal Name": "Duck",
+        "Kingdom": "Animalia",
+        "Species": "<i>Anatidae spp.</i>",
+        "Habitat": "Freshwater habitats",
+        "Food": "Omnivore (plants, insects)",
+        "Lifespan": "5-10 years"
+      },
+      "description": "Aquatic birds with waterproof feathers and broad bills, found worldwide except Antarctica."
+    },
+    "eagle": {
+      "image": "../Birds/content_images/eagle.jpg",
+      "information": {
+        "Animal Name": "Eagle",
+        "Kingdom": "Animalia",
+        "Species": "<i>Aquila spp.</i>",
+        "Habitat": "Various terrains",
+        "Food": "Carnivore (fish, small mammals)",
+        "Lifespan": "20-30 years"
+      },
+      "description": "Large birds of prey with powerful talons and keen eyesight, national symbol of many countries."
+    },
+    "hawk": {
+      "image": "../Birds/content_images/hawk.jpg",
+      "information": {
+        "Animal Name": "Hawk",
+        "Kingdom": "Animalia",
+        "Species": "<i>Accipitridae spp.</i>",
+        "Habitat": "Woodlands, open areas",
+        "Food": "Carnivore (small animals)",
+        "Lifespan": "10-20 years"
+      },
+      "description": "Medium-sized diurnal birds of prey with sharp vision and curved beaks."
+    },
+    "hummingbird": {
+      "image": "../Birds/content_images/hummingbird.jpg",
+      "information": {
+        "Animal Name": "Hummingbird",
+        "Kingdom": "Animalia",
+        "Species": "<i>Trochilidae spp.</i>",
+        "Habitat": "Americas",
+        "Food": "Nectarivore",
+        "Lifespan": "3-5 years"
+      },
+      "description": "Smallest birds capable of hovering flight, beating wings up to 80 times per second."
+    },
+    "magpie": {
+      "image": "../Birds/content_images/magpie.jpg",
+      "information": {
+        "Animal Name": "Magpie",
+        "Kingdom": "Animalia",
+        "Species": "<i>Pica pica</i>",
+        "Habitat": "Temperate regions",
+        "Food": "Omnivore",
+        "Lifespan": "5-8 years"
+      },
+      "description": "Intelligent corvids with distinctive black-and-white plumage, known for collecting shiny objects."
+    },
+    "owl": {
+      "image": "../Birds/content_images/owl.jpg",
+      "information": {
+        "Animal Name": "Owl",
+        "Kingdom": "Animalia",
+        "Species": "<i>Strigiformes spp.</i>",
+        "Habitat": "Various ecosystems",
+        "Food": "Carnivore (small mammals)",
+        "Lifespan": "10-30 years"
+      },
+      "description": "Nocturnal birds of prey with facial discs, silent flight, and rotating heads (270°)."
+    },
+    "parrot": {
+      "image": "../Birds/content_images/parrot.jpg",
+      "information": {
+        "Animal Name": "Parrot",
+        "Kingdom": "Animalia",
+        "Species": "<i>Psittaciformes spp.</i>",
+        "Habitat": "Tropical regions",
+        "Food": "Herbivore (fruits, nuts)",
+        "Lifespan": "30-80 years"
+      },
+      "description": "Colorful intelligent birds with curved beaks, known for vocal mimicry abilities."
+    },
+    "pigeon": {
+      "image": "../Birds/content_images/pigeon.jpg",
+      "information": {
+        "Animal Name": "Pigeon",
+        "Kingdom": "Animalia",
+        "Species": "<i>Columba livia</i>",
+        "Habitat": "Urban areas worldwide",
+        "Food": "Granivore",
+        "Lifespan": "6-15 years"
+      },
+      "description": "Highly adaptable birds used as messengers in wars, capable of navigating long distances."
+    },
+    "sparrow": {
+      "image": "../Birds/content_images/sparrow.jpg",
+      "information": {
+        "Animal Name": "Sparrow",
+        "Kingdom": "Animalia",
+        "Species": "<i>Passer domesticus</i>",
+        "Habitat": "Urban and rural areas",
+        "Food": "Omnivore (seeds, insects)",
+        "Lifespan": "3-5 years"
+      },
+      "description": "Small passerine birds with stout bodies, found in most parts of the world."
+    },
+    "swallow": {
+      "image": "../Birds/content_images/swallow.jpg",
+      "information": {
+        "Animal Name": "Swallow",
+        "Kingdom": "Animalia",
+        "Species": "<i>Hirundinidae spp.</i>",
+        "Habitat": "Open areas near water",
+        "Food": "Insectivore",
+        "Lifespan": "4-8 years"
+      },
+      "description": "Aerial feeders with streamlined bodies, known for long migratory patterns."
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "insects": {
+    "beetle": {
+      "image": "../Insects/content_images/beetle.jpg",
+      "information": {
+        "Animal Name": "Beetle",
+        "Kingdom": "Animalia",
+        "Species": "<i>Coleoptera</i>",
+        "Habitat": "Global ecosystems",
+        "Food": "Varied (plants, debris)",
+        "Lifespan": "1-3 years"
+      },
+      "description": "Largest insect order with over 400,000 species, featuring hardened wing cases."
+    },
+    "butterfly": {
+      "image": "../Insects/content_images/butterfly.jpg",
+      "information": {
+        "Animal Name": "Butterfly",
+        "Kingdom": "Animalia",
+        "Species": "<i>Lepidoptera</i>",
+        "Habitat": "Flowering areas",
+        "Food": "Nectarivore",
+        "Lifespan": "2-4 weeks"
+      },
+      "description": "Colorful pollinators undergoing complete metamorphosis (egg to caterpillar to chrysalis)."
+    },
+    "fly": {
+      "image": "../Insects/content_images/fly.jpg",
+      "information": {
+        "Animal Name": "House Fly",
+        "Kingdom": "Animalia",
+        "Species": "<i>Musca domestica</i>",
+        "Habitat": "Human habitats",
+        "Food": "Liquids (rotting matter)",
+        "Lifespan": "15-30 days"
+      },
+      "description": "Common pests with compound eyes, capable of walking upside down."
+    },
+    "grasshopper": {
+      "image": "../Insects/content_images/grasshopper.jpg",
+      "information": {
+        "Animal Name": "Grasshopper",
+        "Kingdom": "Animalia",
+        "Species": "<i>Caelifera</i>",
+        "Habitat": "Grasslands",
+        "Food": "Herbivore",
+        "Lifespan": "1 year"
+      },
+      "description": "Jumping insects producing sound through stridulation, important agricultural pests."
+    },
+    "honeybee": {
+      "image": "../Insects/content_images/honeybee.jpg",
+      "information": {
+        "Animal Name": "Honeybee",
+        "Kingdom": "Animalia",
+        "Species": "<i>Apis mellifera</i>",
+        "Habitat": "Hives",
+        "Food": "Nectar/pollen",
+        "Lifespan": "Worker: 6 weeks, Queen: 2-3 years"
+      },
+      "description": "Social pollinators producing honey, with complex hive communication through dance."
+    },
+    "hornet": {
+      "image": "../Insects/content_images/hornet.jpg",
+      "information": {
+        "Animal Name": "Hornet",
+        "Kingdom": "Animalia",
+        "Species": "<i>Vespa crabro</i>",
+        "Habitat": "Woodlands",
+        "Food": "Carnivore (other insects)",
+        "Lifespan": "1 year (queens survive winter)"
+      },
+      "description": "Largest eusocial wasps, capable of destroying honeybee hives."
+    },
+    "ladybug": {
+      "image": "../Insects/content_images/ladybug.jpg",
+      "information": {
+        "Animal Name": "Ladybug",
+        "Kingdom": "Animalia",
+        "Species": "<i>Coccinellidae</i>",
+        "Habitat": "Gardens",
+        "Food": "Aphids",
+        "Lifespan": "1-2 years"
+      },
+      "description": "Beneficial predators with bright coloration warning of toxicity."
+    },
+    "mosquito": {
+      "image": "../Insects/content_images/mosquito.jpg",
+      "information": {
+        "Animal Name": "Mosquito",
+        "Kingdom": "Animalia",
+        "Species": "<i>Culicidae</i>",
+        "Habitat": "Near standing water",
+        "Food": "Nectar (females blood-feed)",
+        "Lifespan": "2 weeks - 1 month"
+      },
+      "description": "Disease vectors transmitting malaria and dengue, only females bite."
+    }
+  }
+}

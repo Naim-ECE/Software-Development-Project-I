@@ -258,6 +258,15 @@ header ul a:hover {
   transition: 0.4s ease;
 }
 
+.reptile-card {
+  background: linear-gradient(to bottom, #e8f5e9, #c8e6c9);
+}
+
+.reptile-card .tag {
+  color: #1b5e20;
+  font-weight: 600;
+}
+
 @media (max-width: 1750px) {
 }
 

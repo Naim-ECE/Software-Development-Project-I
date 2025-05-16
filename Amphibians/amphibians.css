@@ -258,6 +258,14 @@ header ul a:hover {
   transition: 0.4s ease;
 }
 
+.amphibian-card {
+  background: linear-gradient(to bottom, #e6f3ec, #cce8db);
+}
+
+.amphibian-card .tag {
+  color: #2c5f2d;
+}
+
 @media (max-width: 1750px) {
 }
 

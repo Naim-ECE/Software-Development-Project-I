@@ -1,12 +1,148 @@
-[
-  {
-    "id": "tiger",
-    "name": "Tiger",
-    "image": "./content_images/tiger.jpg",
-    "detailsPage": "tiger.html",
-    "facts": {
-      "habitat": "Jungle",
-      "diet": "Carnivore"
+{
+  "mammals": {
+    "tiger": {
+      "image": "../Mammals/content_images/tiger.jpg",
+      "information": {
+        "Animal Name": "Tiger",
+        "Kingdom": "Animalia",
+        "Species": "<i>Panthera tigris</i>",
+        "Habitat": "Tropical forests, grasslands, mangroves",
+        "Food": "Carnivore (deer, wild boar)",
+        "Lifespan": "10-15 years (wild)"
+      },
+      "description": "The largest cat species, recognizable by its dark vertical stripes on reddish-orange fur."
+    },
+    "lion": {
+      "image": "../Mammals/content_images/lion.jpg",
+      "information": {
+        "Animal Name": "Lion",
+        "Kingdom": "Animalia",
+        "Species": "<i>Panthera leo</i>",
+        "Habitat": "Grasslands, savannas",
+        "Food": "Carnivore (zebras, wildebeest)",
+        "Lifespan": "10-14 years (wild)"
+      },
+      "description": "Social felines living in prides, males distinguished by their majestic manes."
+    },
+    "jaguar": {
+      "image": "../Mammals/content_images/jaguar.jpg",
+      "information": {
+        "Animal Name": "Jaguar",
+        "Kingdom": "Animalia",
+        "Species": "<i>Panthera onca</i>",
+        "Habitat": "Rainforests, swamps",
+        "Food": "Carnivore (capybaras, caimans)",
+        "Lifespan": "12-15 years (wild)"
+      },
+      "description": "Largest American big cat with distinctive rosette patterns on its coat."
+    },
+    "wolf": {
+      "image": "../Mammals/content_images/wolf.jpg",
+      "information": {
+        "Animal Name": "Wolf",
+        "Kingdom": "Animalia",
+        "Species": "<i>Canis lupus</i>",
+        "Habitat": "Forests, tundra, grasslands",
+        "Food": "Carnivore (elk, moose)",
+        "Lifespan": "6-8 years (wild)"
+      },
+      "description": "Highly social predators known for their pack hunting strategies."
+    },
+    "camel": {
+      "image": "../Mammals/content_images/camel2.jpg",
+      "information": {
+        "Animal Name": "Camel",
+        "Kingdom": "Animalia",
+        "Species": "<i>Camelus bactrianus</i>",
+        "Habitat": "Deserts",
+        "Food": "Herbivore (grasses, grains)",
+        "Lifespan": "40-50 years"
+      },
+      "description": "Desert-adapted mammals with distinctive humps storing fat reserves."
+    },
+    "cat": {
+      "image": "../Mammals/content_images/cat.jpg",
+      "information": {
+        "Animal Name": "Cat",
+        "Kingdom": "Animalia",
+        "Species": "<i>Felis catus</i>",
+        "Habitat": "Domestic, various environments",
+        "Food": "Carnivore (small animals)",
+        "Lifespan": "12-18 years (domestic)"
+      },
+      "description": "Domesticated carnivorous mammals, one of humanity's oldest companions."
+    },
+    "cow": {
+      "image": "../Mammals/content_images/cow.jpg",
+      "information": {
+        "Animal Name": "Cow",
+        "Kingdom": "Animalia",
+        "Species": "<i>Bos taurus</i>",
+        "Habitat": "Domesticated, farms",
+        "Food": "Herbivore (grass, hay)",
+        "Lifespan": "18-22 years"
+      },
+      "description": "Domesticated ungulates vital for dairy and agricultural production."
+    },
+    "dog": {
+      "image": "../Mammals/content_images/dog.jpeg",
+      "information": {
+        "Animal Name": "Dog",
+        "Kingdom": "Animalia",
+        "Species": "<i>Canis lupus familiaris</i>",
+        "Habitat": "Domestic, various environments",
+        "Food": "Omnivore (commercial food)",
+        "Lifespan": "10-13 years"
+      },
+      "description": "Domesticated descendants of wolves, known as 'man's best friend'."
+    },
+    "elephant": {
+      "image": "../Mammals/content_images/elephant.jpg",
+      "information": {
+        "Animal Name": "Elephant",
+        "Kingdom": "Animalia",
+        "Species": "<i>Loxodonta africana</i>",
+        "Habitat": "Savannas, forests",
+        "Food": "Herbivore (grasses, fruits)",
+        "Lifespan": "60-70 years"
+      },
+      "description": "Largest land animals with distinctive trunks and ivory tusks."
+    },
+    "hippo": {
+      "image": "../Mammals/content_images/hippo.jpg",
+      "information": {
+        "Animal Name": "Hippo",
+        "Kingdom": "Animalia",
+        "Species": "<i>Hippopotamus amphibius</i>",
+        "Habitat": "Rivers, lakes",
+        "Food": "Herbivore (grasses)",
+        "Lifespan": "40-50 years"
+      },
+      "description": "Semi-aquatic mammals with massive bodies and large canine tusks."
+    },
+    "horse": {
+      "image": "../Mammals/content_images/horse.jpg",
+      "information": {
+        "Animal Name": "Horse",
+        "Kingdom": "Animalia",
+        "Species": "<i>Equus ferus caballus</i>",
+        "Habitat": "Domestic, grasslands",
+        "Food": "Herbivore (hay, grains)",
+        "Lifespan": "25-30 years"
+      },
+      "description": "Domesticated hoofed animals historically used for transportation."
+    },
+    "rhino": {
+      "image": "../Mammals/content_images/rhino.jpg",
+      "information": {
+        "Animal Name": "Rhino",
+        "Kingdom": "Animalia",
+        "Species": "<i>Ceratotherium simum</i>",
+        "Habitat": "Grasslands, savannas",
+        "Food": "Herbivore (grasses)",
+        "Lifespan": "40-50 years"
+      },
+      "description": "Massive herbivores with distinctive horned snouts, critically endangered."
     }
   }
-]
+}

@@ -258,6 +258,15 @@ header ul a:hover {
   transition: 0.4s ease;
 }
 
+.fish-card {
+  background: linear-gradient(to bottom, #e6f7ff, #ccebff);
+}
+
+.fish-card .tag {
+  color: #1a5276;
+  font-weight: 600;
+}
+
 @media (max-width: 1750px) {
 }
 

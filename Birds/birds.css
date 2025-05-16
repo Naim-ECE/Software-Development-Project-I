@@ -286,6 +286,16 @@ header ul a:hover {
   transition: 0.4s ease;
 }
 
+/* birds.css */
+.bird-card {
+  background: linear-gradient(to bottom, #f0f8ff, #d8eaf5);
+}
+
+.bird-card .tag {
+  color: #2a4b7c;
+  font-weight: 600;
+}
+
 @media (max-width: 1750px) {
 }
 
