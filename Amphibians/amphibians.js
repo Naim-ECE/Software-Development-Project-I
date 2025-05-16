@@ -2,7 +2,8 @@ const menuBar = document.querySelector(".burger");
 const sideBar = document.querySelector(".sidebar");
 const close = document.querySelector(".close");
 
-menuBar.addEventListener("click", () => {
+menuBar.addEventListener("click", (e) => {
+  e.preventDefault();
     showSideBar();
   });
   
@@ -13,7 +14,8 @@ menuBar.addEventListener("click", () => {
     sideBar.classList.add("show");
   };
   
-  close.addEventListener("click", () => {
+  close.addEventListener("click", (e) => {
+    e.preventDefault();
     closeSideBar();
   });
   

@@ -7,7 +7,8 @@ for (let i = 1; i <= 12; ++i) {
   objElements.push(document.querySelector(`.obj${i}`));
 }
 
-menuBar.addEventListener("click", () => {
+menuBar.addEventListener("click", (e) => {
+  e.preventDefault();
   showSideBar();
 });
 
@@ -18,7 +19,8 @@ const showSideBar = () => {
   sideBar.classList.add("show");
 };
 
-close.addEventListener("click", () => {
+close.addEventListener("click", (e) => {
+  e.preventDefault();
   closeSideBar();
 });
 
