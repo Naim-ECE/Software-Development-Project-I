@@ -29,13 +29,15 @@ const closeSideBar = () => {
   sideBar.classList.add("show");
 };
 
-document.querySelectorAll('.content').forEach(card => {
-  card.addEventListener('click', () => {
-    const animalName = card.querySelector('.tag').textContent.toLowerCase().trim();
-    window.open(
-      `../Content_Page/content.html?category=mammals&animal=${encodeURIComponent(animalName)}`,
-      '_blank'
-    );
+document.querySelectorAll(".content").forEach((card) => {
+  card.addEventListener("click", () => {
+    const animalName = card
+      .querySelector(".tag")
+      .textContent.toLowerCase()
+      .trim();
+    window.location.href = `../Content_Page/content.html?category=mammals&animal=${encodeURIComponent(
+      animalName
+    )}`;
   });
 });
 // document.addEventListener('DOMContentLoaded', function() {

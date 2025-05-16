@@ -1,100 +1,98 @@
 {
-  "fish": {
-    "catfish": {
-      "image": "../Fish/content_images/catfish.jpg",
-      "information": {
-        "Animal Name": "Catfish",
-        "Kingdom": "Animalia",
-        "Species": "<i>Siluriformes</i>",
-        "Habitat": "Freshwater ecosystems",
-        "Food": "Omnivore (insects, plants)",
-        "Lifespan": "8-20 years"
-      },
-      "description": "Named for their whisker-like barbels, bottom-dwelling fish with over 3,000 species."
+  "catfish": {
+    "image": "../Fish/content_images/catfish.jpg",
+    "information": {
+      "Animal Name": "Catfish",
+      "Kingdom": "Animalia",
+      "Species": "<i>Siluriformes</i>",
+      "Habitat": "Freshwater ecosystems",
+      "Food": "Omnivore (insects, plants)",
+      "Lifespan": "8-20 years"
     },
-    "dolphin": {
-      "image": "../Fish/content_images/dolphin.jpg",
-      "information": {
-        "Animal Name": "Dolphin Fish (Mahi-Mahi)",
-        "Kingdom": "Animalia",
-        "Species": "<i>Coryphaena hippurus</i>",
-        "Habitat": "Tropical oceans",
-        "Food": "Carnivore (small fish)",
-        "Lifespan": "4-5 years"
-      },
-      "description": "Fast-growing surface-dwelling fish with iridescent colors, not to be confused with marine mammals."
+    "description": "Named for their whisker-like barbels, bottom-dwelling fish with over 3,000 species."
+  },
+  "dolphin": {
+    "image": "../Fish/content_images/doiphin.jpg",
+    "information": {
+      "Animal Name": "Dolphin Fish (Mahi-Mahi)",
+      "Kingdom": "Animalia",
+      "Species": "<i>Coryphaena hippurus</i>",
+      "Habitat": "Tropical oceans",
+      "Food": "Carnivore (small fish)",
+      "Lifespan": "4-5 years"
     },
-    "goldfish": {
-      "image": "../Fish/content_images/goldfish.jpg",
-      "information": {
-        "Animal Name": "Goldfish",
-        "Kingdom": "Animalia",
-        "Species": "<i>Carassius auratus</i>",
-        "Habitat": "Domestic aquariums",
-        "Food": "Omnivore (flakes, plants)",
-        "Lifespan": "10-15 years"
-      },
-      "description": "Popular freshwater aquarium fish, capable of recognizing human faces."
+    "description": "Fast-growing surface-dwelling fish with iridescent colors, not to be confused with marine mammals."
+  },
+  "goldfish": {
+    "image": "../Fish/content_images/goldfish.jpg",
+    "information": {
+      "Animal Name": "Goldfish",
+      "Kingdom": "Animalia",
+      "Species": "<i>Carassius auratus</i>",
+      "Habitat": "Domestic aquariums",
+      "Food": "Omnivore (flakes, plants)",
+      "Lifespan": "10-15 years"
     },
-    "koi": {
-      "image": "../Fish/content_images/koi.jpg",
-      "information": {
-        "Animal Name": "Koi",
-        "Kingdom": "Animalia",
-        "Species": "<i>Cyprinus rubrofuscus</i>",
-        "Habitat": "Ornamental ponds",
-        "Food": "Omnivore (pellets, algae)",
-        "Lifespan": "25-35 years"
-      },
-      "description": "Colorful ornamental carp varieties highly valued in Japanese culture."
+    "description": "Popular freshwater aquarium fish, capable of recognizing human faces."
+  },
+  "koi": {
+    "image": "../Fish/content_images/koiFish.jpg",
+    "information": {
+      "Animal Name": "Koi",
+      "Kingdom": "Animalia",
+      "Species": "<i>Cyprinus rubrofuscus</i>",
+      "Habitat": "Ornamental ponds",
+      "Food": "Omnivore (pellets, algae)",
+      "Lifespan": "25-35 years"
     },
-    "rohu": {
-      "image": "../Fish/content_images/rohu.jpg",
-      "information": {
-        "Animal Name": "Rohu Fish",
-        "Kingdom": "Animalia",
-        "Species": "<i>Labeo rohita</i>",
-        "Habitat": "South Asian rivers",
-        "Food": "Omnivore (plankton, algae)",
-        "Lifespan": "10-15 years"
-      },
-      "description": "Important food fish in South Asia, member of the carp family."
+    "description": "Colorful ornamental carp varieties highly valued in Japanese culture."
+  },
+  "rohu": {
+    "image": "../Fish/content_images/rohuFish.jpg",
+    "information": {
+      "Animal Name": "Rohu Fish",
+      "Kingdom": "Animalia",
+      "Species": "<i>Labeo rohita</i>",
+      "Habitat": "South Asian rivers",
+      "Food": "Omnivore (plankton, algae)",
+      "Lifespan": "10-15 years"
     },
-    "shark": {
-      "image": "../Fish/content_images/shark.jpg",
-      "information": {
-        "Animal Name": "Shark",
-        "Kingdom": "Animalia",
-        "Species": "<i>Selachimorpha</i>",
-        "Habitat": "Global oceans",
-        "Food": "Carnivore (fish, seals)",
-        "Lifespan": "20-30 years"
-      },
-      "description": "Apex predators with cartilaginous skeletons and electroreceptive capabilities."
+    "description": "Important food fish in South Asia, member of the carp family."
+  },
+  "shark": {
+    "image": "../Fish/content_images/shark.jpg",
+    "information": {
+      "Animal Name": "Shark",
+      "Kingdom": "Animalia",
+      "Species": "<i>Selachimorpha</i>",
+      "Habitat": "Global oceans",
+      "Food": "Carnivore (fish, seals)",
+      "Lifespan": "20-30 years"
     },
-    "tuna": {
-      "image": "../Fish/content_images/tuna.jpg",
-      "information": {
-        "Animal Name": "Tuna",
-        "Kingdom": "Animalia",
-        "Species": "<i>Thunnini spp.</i>",
-        "Habitat": "Open oceans",
-        "Food": "Carnivore (fish, squid)",
-        "Lifespan": "10-15 years"
-      },
-      "description": "Fast-swimming migratory fish reaching speeds up to 75 km/h."
+    "description": "Apex predators with cartilaginous skeletons and electroreceptive capabilities."
+  },
+  "tuna": {
+    "image": "../Fish/content_images/tuna.jpg",
+    "information": {
+      "Animal Name": "Tuna",
+      "Kingdom": "Animalia",
+      "Species": "<i>Thunnini spp.</i>",
+      "Habitat": "Open oceans",
+      "Food": "Carnivore (fish, squid)",
+      "Lifespan": "10-15 years"
     },
-    "whale": {
-      "image": "../Fish/content_images/whale.jpg",
-      "information": {
-        "Animal Name": "Whale Shark",
-        "Kingdom": "Animalia",
-        "Species": "<i>Rhincodon typus</i>",
-        "Habitat": "Tropical oceans",
-        "Food": "Filter feeder (plankton)",
-        "Lifespan": "70-100 years"
-      },
-      "description": "Largest fish species, gentle filter-feeder growing up to 18 meters long."
-    }
+    "description": "Fast-swimming migratory fish reaching speeds up to 75 km/h."
+  },
+  "whale": {
+    "image": "../Fish/content_images/whale.jpg",
+    "information": {
+      "Animal Name": "Whale Shark",
+      "Kingdom": "Animalia",
+      "Species": "<i>Rhincodon typus</i>",
+      "Habitat": "Tropical oceans",
+      "Food": "Filter feeder (plankton)",
+      "Lifespan": "70-100 years"
+    },
+    "description": "Largest fish species, gentle filter-feeder growing up to 18 meters long."
   }
 }

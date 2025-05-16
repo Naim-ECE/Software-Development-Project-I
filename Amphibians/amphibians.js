@@ -28,11 +28,8 @@ menuBar.addEventListener("click", () => {
   document.querySelectorAll('.content').forEach(card => {
     card.addEventListener('click', () => {
       const animalName = card.dataset.animal;
-      window.open(
-        `../Content_Page/content.html?category=amphibians&animal=${encodeURIComponent(animalName)}`,
-        '_blank',
-        'noopener,noreferrer'
-      );
+      window.location.href = 
+        `../Content_Page/content.html?category=amphibians&animal=${encodeURIComponent(animalName)}`
     });
   });
 });

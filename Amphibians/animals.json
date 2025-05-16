@@ -1,100 +1,98 @@
 {
-  "amphibians": {
-    "anthracosauria": {
-      "image": "../Amphibians/content_images/anthracosauria.jpg",
-      "information": {
-        "Animal Name": "Anthracosauria",
-        "Kingdom": "Animalia",
-        "Species": "<i>Anthracosauria</i>",
-        "Habitat": "Carboniferous swamps",
-        "Food": "Carnivore (small vertebrates)",
-        "Lifespan": "N/A (extinct)"
-      },
-      "description": "Extinct reptiliomorph amphibians considered ancestors of amniotes."
+  "anthracosauria": {
+    "image": "../Amphibians/content_images/anthracosauria2.jpeg",
+    "information": {
+      "Animal Name": "Anthracosauria",
+      "Kingdom": "Animalia",
+      "Species": "<i>Anthracosauria</i>",
+      "Habitat": "Carboniferous swamps",
+      "Food": "Carnivore (small vertebrates)",
+      "Lifespan": "N/A (extinct)"
     },
-    "axolotl": {
-      "image": "../Amphibians/content_images/axolotl.jpg",
-      "information": {
-        "Animal Name": "Axolotl",
-        "Kingdom": "Animalia",
-        "Species": "<i>Ambystoma mexicanum</i>",
-        "Habitat": "Lake Xochimilco, Mexico",
-        "Food": "Carnivore (worms, insects)",
-        "Lifespan": "10-15 years"
-      },
-      "description": "Neotenic salamander famous for its regenerative capabilities and permanent larval features."
+    "description": "Extinct reptiliomorph amphibians considered ancestors of amniotes."
+  },
+  "axolotl": {
+    "image": "../Amphibians/content_images/axolotl.jpg",
+    "information": {
+      "Animal Name": "Axolotl",
+      "Kingdom": "Animalia",
+      "Species": "<i>Ambystoma mexicanum</i>",
+      "Habitat": "Lake Xochimilco, Mexico",
+      "Food": "Carnivore (worms, insects)",
+      "Lifespan": "10-15 years"
     },
-    "caecilian": {
-      "image": "../Amphibians/content_images/caecilian.jpg",
-      "information": {
-        "Animal Name": "Caecilian",
-        "Kingdom": "Animalia",
-        "Species": "<i>Gymnophiona spp.</i>",
-        "Habitat": "Tropical soils",
-        "Food": "Insectivore",
-        "Lifespan": "5-20 years"
-      },
-      "description": "Legless amphibians with snake-like appearance, mostly burrowing in tropical regions."
+    "description": "Neotenic salamander famous for its regenerative capabilities and permanent larval features."
+  },
+  "caecilian": {
+    "image": "../Amphibians/content_images/caecilians.jpg",
+    "information": {
+      "Animal Name": "Caecilian",
+      "Kingdom": "Animalia",
+      "Species": "<i>Gymnophiona spp.</i>",
+      "Habitat": "Tropical soils",
+      "Food": "Insectivore",
+      "Lifespan": "5-20 years"
     },
-    "diplocaulus": {
-      "image": "../Amphibians/content_images/diplocaulus.jpg",
-      "information": {
-        "Animal Name": "Diplocaulus",
-        "Kingdom": "Animalia",
-        "Species": "<i>Diplocaulus spp.</i>",
-        "Habitat": "Permian wetlands",
-        "Food": "Carnivore (small fish)",
-        "Lifespan": "N/A (extinct)"
-      },
-      "description": "Ancient amphibian with distinctive boomerang-shaped skull, lived 270 million years ago."
+    "description": "Legless amphibians with snake-like appearance, mostly burrowing in tropical regions."
+  },
+  "diplocaulus": {
+    "image": "../Amphibians/content_images/diplocaulus.jpg",
+    "information": {
+      "Animal Name": "Diplocaulus",
+      "Kingdom": "Animalia",
+      "Species": "<i>Diplocaulus spp.</i>",
+      "Habitat": "Permian wetlands",
+      "Food": "Carnivore (small fish)",
+      "Lifespan": "N/A (extinct)"
     },
-    "frog": {
-      "image": "../Amphibians/content_images/frog.jpg",
-      "information": {
-        "Animal Name": "Frog",
-        "Kingdom": "Animalia",
-        "Species": "<i>Anura spp.</i>",
-        "Habitat": "Global wetlands",
-        "Food": "Insectivore",
-        "Lifespan": "5-15 years"
-      },
-      "description": "Tailless amphibians with jumping ability and complex life cycle (tadpole to adult)."
+    "description": "Ancient amphibian with distinctive boomerang-shaped skull, lived 270 million years ago."
+  },
+  "frog": {
+    "image": "../Amphibians/content_images/frog.jpg",
+    "information": {
+      "Animal Name": "Frog",
+      "Kingdom": "Animalia",
+      "Species": "<i>Anura spp.</i>",
+      "Habitat": "Global wetlands",
+      "Food": "Insectivore",
+      "Lifespan": "5-15 years"
     },
-    "labyrinthodontia": {
-      "image": "../Amphibians/content_images/labyrinthodontia.jpg",
-      "information": {
-        "Animal Name": "Labyrinthodontia",
-        "Kingdom": "Animalia",
-        "Species": "<i>Labyrinthodontia</i>",
-        "Habitat": "Paleozoic ecosystems",
-        "Food": "Carnivore",
-        "Lifespan": "N/A (extinct)"
-      },
-      "description": "Early tetrapod group with distinctive folded tooth enamel patterns."
+    "description": "Tailless amphibians with jumping ability and complex life cycle (tadpole to adult)."
+  },
+  "labyrinthodontia": {
+    "image": "../Amphibians/content_images/labyrinthodontia.jpg",
+    "information": {
+      "Animal Name": "Labyrinthodontia",
+      "Kingdom": "Animalia",
+      "Species": "<i>Labyrinthodontia</i>",
+      "Habitat": "Paleozoic ecosystems",
+      "Food": "Carnivore",
+      "Lifespan": "N/A (extinct)"
     },
-    "microsauria": {
-      "image": "../Amphibians/content_images/microsauria.jpg",
-      "information": {
-        "Animal Name": "Microsauria",
-        "Kingdom": "Animalia",
-        "Species": "<i>Microsauria</i>",
-        "Habitat": "Carboniferous forests",
-        "Food": "Insectivore",
-        "Lifespan": "N/A (extinct)"
-      },
-      "description": "Small lepospondyl amphibians from the late Paleozoic era."
+    "description": "Early tetrapod group with distinctive folded tooth enamel patterns."
+  },
+  "microsauria": {
+    "image": "../Amphibians/content_images/microsauria.jpg",
+    "information": {
+      "Animal Name": "Microsauria",
+      "Kingdom": "Animalia",
+      "Species": "<i>Microsauria</i>",
+      "Habitat": "Carboniferous forests",
+      "Food": "Insectivore",
+      "Lifespan": "N/A (extinct)"
     },
-    "salamander": {
-      "image": "../Amphibians/content_images/salamander.jpg",
-      "information": {
-        "Animal Name": "Salamander",
-        "Kingdom": "Animalia",
-        "Species": "<i>Caudata spp.</i>",
-        "Habitat": "Northern hemisphere forests",
-        "Food": "Carnivore (insects, worms)",
-        "Lifespan": "10-30 years"
-      },
-      "description": "Tailed amphibians with moist skin and capacity for limb regeneration."
-    }
+    "description": "Small lepospondyl amphibians from the late Paleozoic era."
+  },
+  "salamander": {
+    "image": "../Amphibians/content_images/salamander.jpg",
+    "information": {
+      "Animal Name": "Salamander",
+      "Kingdom": "Animalia",
+      "Species": "<i>Caudata spp.</i>",
+      "Habitat": "Northern hemisphere forests",
+      "Food": "Carnivore (insects, worms)",
+      "Lifespan": "10-30 years"
+    },
+    "description": "Tailed amphibians with moist skin and capacity for limb regeneration."
   }
 }

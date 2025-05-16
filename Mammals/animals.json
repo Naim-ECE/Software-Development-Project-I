@@ -1,5 +1,4 @@
 {
-  "mammals": {
     "tiger": {
       "image": "../Mammals/content_images/tiger.jpg",
       "information": {
@@ -145,4 +144,3 @@
       "description": "Massive herbivores with distinctive horned snouts, critically endangered."
     }
   }
-}

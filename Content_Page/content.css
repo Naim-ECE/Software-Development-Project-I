@@ -65,8 +65,8 @@ header ul a {
   z-index: 90;
   width: 16.16%;
   font-size: 2rem;
-  background-color: rgb(255, 255, 255, 0.2);
-  backdrop-filter: blur(18px);
+  background-color: rgb(255, 255, 255, 0.9);
+  backdrop-filter: blur(1000px);
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
   display: none;
   flex-direction: column;
@@ -268,7 +268,7 @@ header ul a:hover {
   color: white;
   text-decoration: none;
   border-radius: 4px;
-  transition: background 0.3s ease;
+  transition: ease-in 0.3s ease;
 }
 
 .home-link:hover {

@@ -1,0 +1,687 @@
+{
+  "amphibians": {
+    "anthracosauria": {
+      "image": "../Amphibians/content_images/anthracosauria.jpg",
+      "information": {
+        "Animal Name": "Anthracosauria",
+        "Kingdom": "Animalia",
+        "Species": "<i>Anthracosauria</i>",
+        "Habitat": "Carboniferous swamps",
+        "Food": "Carnivore (small vertebrates)",
+        "Lifespan": "N/A (extinct)"
+      },
+      "description": "Extinct reptiliomorph amphibians considered ancestors of amniotes."
+    },
+    "axolotl": {
+      "image": "../Amphibians/content_images/axolotl.jpg",
+      "information": {
+        "Animal Name": "Axolotl",
+        "Kingdom": "Animalia",
+        "Species": "<i>Ambystoma mexicanum</i>",
+        "Habitat": "Lake Xochimilco, Mexico",
+        "Food": "Carnivore (worms, insects)",
+        "Lifespan": "10-15 years"
+      },
+      "description": "Neotenic salamander famous for its regenerative capabilities and permanent larval features."
+    },
+    "caecilian": {
+      "image": "../Amphibians/content_images/caecilian.jpg",
+      "information": {
+        "Animal Name": "Caecilian",
+        "Kingdom": "Animalia",
+        "Species": "<i>Gymnophiona spp.</i>",
+        "Habitat": "Tropical soils",
+        "Food": "Insectivore",
+        "Lifespan": "5-20 years"
+      },
+      "description": "Legless amphibians with snake-like appearance, mostly burrowing in tropical regions."
+    },
+    "diplocaulus": {
+      "image": "../Amphibians/content_images/diplocaulus.jpg",
+      "information": {
+        "Animal Name": "Diplocaulus",
+        "Kingdom": "Animalia",
+        "Species": "<i>Diplocaulus spp.</i>",
+        "Habitat": "Permian wetlands",
+        "Food": "Carnivore (small fish)",
+        "Lifespan": "N/A (extinct)"
+      },
+      "description": "Ancient amphibian with distinctive boomerang-shaped skull, lived 270 million years ago."
+    },
+    "frog": {
+      "image": "../Amphibians/content_images/frog.jpg",
+      "information": {
+        "Animal Name": "Frog",
+        "Kingdom": "Animalia",
+        "Species": "<i>Anura spp.</i>",
+        "Habitat": "Global wetlands",
+        "Food": "Insectivore",
+        "Lifespan": "5-15 years"
+      },
+      "description": "Tailless amphibians with jumping ability and complex life cycle (tadpole to adult)."
+    },
+    "labyrinthodontia": {
+      "image": "../Amphibians/content_images/labyrinthodontia.jpg",
+      "information": {
+        "Animal Name": "Labyrinthodontia",
+        "Kingdom": "Animalia",
+        "Species": "<i>Labyrinthodontia</i>",
+        "Habitat": "Paleozoic ecosystems",
+        "Food": "Carnivore",
+        "Lifespan": "N/A (extinct)"
+      },
+      "description": "Early tetrapod group with distinctive folded tooth enamel patterns."
+    },
+    "microsauria": {
+      "image": "../Amphibians/content_images/microsauria.jpg",
+      "information": {
+        "Animal Name": "Microsauria",
+        "Kingdom": "Animalia",
+        "Species": "<i>Microsauria</i>",
+        "Habitat": "Carboniferous forests",
+        "Food": "Insectivore",
+        "Lifespan": "N/A (extinct)"
+      },
+      "description": "Small lepospondyl amphibians from the late Paleozoic era."
+    },
+    "salamander": {
+      "image": "../Amphibians/content_images/salamander.jpg",
+      "information": {
+        "Animal Name": "Salamander",
+        "Kingdom": "Animalia",
+        "Species": "<i>Caudata spp.</i>",
+        "Habitat": "Northern hemisphere forests",
+        "Food": "Carnivore (insects, worms)",
+        "Lifespan": "10-30 years"
+      },
+      "description": "Tailed amphibians with moist skin and capacity for limb regeneration."
+    },
+
+    "birds": {
+      "cassowary": {
+        "image": "../Birds/content_images/cassowary.jpg",
+        "information": {
+          "Animal Name": "Cassowary",
+          "Kingdom": "Animalia",
+          "Species": "<i>Casuarius casuarius</i>",
+          "Habitat": "Tropical rainforests",
+          "Food": "Frugivore (fruits, fungi)",
+          "Lifespan": "40-50 years"
+        },
+        "description": "Large flightless bird with distinctive casque on head, considered world's most dangerous bird."
+      },
+      "chicken": {
+        "image": "../Birds/content_images/chicken.jpg",
+        "information": {
+          "Animal Name": "Chicken",
+          "Kingdom": "Animalia",
+          "Species": "<i>Gallus gallus domesticus</i>",
+          "Habitat": "Worldwide domestication",
+          "Food": "Omnivore (grains, insects)",
+          "Lifespan": "5-10 years"
+        },
+        "description": "Domestic fowl widely raised for eggs and meat, with over 24 billion worldwide."
+      },
+      "duck": {
+        "image": "../Birds/content_images/duck.jpg",
+        "information": {
+          "Animal Name": "Duck",
+          "Kingdom": "Animalia",
+          "Species": "<i>Anatidae spp.</i>",
+          "Habitat": "Freshwater habitats",
+          "Food": "Omnivore (plants, insects)",
+          "Lifespan": "5-10 years"
+        },
+        "description": "Aquatic birds with waterproof feathers and broad bills, found worldwide except Antarctica."
+      },
+      "eagle": {
+        "image": "../Birds/content_images/eagle.jpg",
+        "information": {
+          "Animal Name": "Eagle",
+          "Kingdom": "Animalia",
+          "Species": "<i>Aquila spp.</i>",
+          "Habitat": "Various terrains",
+          "Food": "Carnivore (fish, small mammals)",
+          "Lifespan": "20-30 years"
+        },
+        "description": "Large birds of prey with powerful talons and keen eyesight, national symbol of many countries."
+      },
+      "hawk": {
+        "image": "../Birds/content_images/hawk.jpg",
+        "information": {
+          "Animal Name": "Hawk",
+          "Kingdom": "Animalia",
+          "Species": "<i>Accipitridae spp.</i>",
+          "Habitat": "Woodlands, open areas",
+          "Food": "Carnivore (small animals)",
+          "Lifespan": "10-20 years"
+        },
+        "description": "Medium-sized diurnal birds of prey with sharp vision and curved beaks."
+      },
+      "hummingbird": {
+        "image": "../Birds/content_images/hummingbird.jpg",
+        "information": {
+          "Animal Name": "Hummingbird",
+          "Kingdom": "Animalia",
+          "Species": "<i>Trochilidae spp.</i>",
+          "Habitat": "Americas",
+          "Food": "Nectarivore",
+          "Lifespan": "3-5 years"
+        },
+        "description": "Smallest birds capable of hovering flight, beating wings up to 80 times per second."
+      },
+      "magpie": {
+        "image": "../Birds/content_images/magpie.jpg",
+        "information": {
+          "Animal Name": "Magpie",
+          "Kingdom": "Animalia",
+          "Species": "<i>Pica pica</i>",
+          "Habitat": "Temperate regions",
+          "Food": "Omnivore",
+          "Lifespan": "5-8 years"
+        },
+        "description": "Intelligent corvids with distinctive black-and-white plumage, known for collecting shiny objects."
+      },
+      "owl": {
+        "image": "../Birds/content_images/owl.jpg",
+        "information": {
+          "Animal Name": "Owl",
+          "Kingdom": "Animalia",
+          "Species": "<i>Strigiformes spp.</i>",
+          "Habitat": "Various ecosystems",
+          "Food": "Carnivore (small mammals)",
+          "Lifespan": "10-30 years"
+        },
+        "description": "Nocturnal birds of prey with facial discs, silent flight, and rotating heads (270°)."
+      },
+      "parrot": {
+        "image": "../Birds/content_images/parrot.jpg",
+        "information": {
+          "Animal Name": "Parrot",
+          "Kingdom": "Animalia",
+          "Species": "<i>Psittaciformes spp.</i>",
+          "Habitat": "Tropical regions",
+          "Food": "Herbivore (fruits, nuts)",
+          "Lifespan": "30-80 years"
+        },
+        "description": "Colorful intelligent birds with curved beaks, known for vocal mimicry abilities."
+      },
+      "pigeon": {
+        "image": "../Birds/content_images/pigeon.jpg",
+        "information": {
+          "Animal Name": "Pigeon",
+          "Kingdom": "Animalia",
+          "Species": "<i>Columba livia</i>",
+          "Habitat": "Urban areas worldwide",
+          "Food": "Granivore",
+          "Lifespan": "6-15 years"
+        },
+        "description": "Highly adaptable birds used as messengers in wars, capable of navigating long distances."
+      },
+      "sparrow": {
+        "image": "../Birds/content_images/sparrow.jpg",
+        "information": {
+          "Animal Name": "Sparrow",
+          "Kingdom": "Animalia",
+          "Species": "<i>Passer domesticus</i>",
+          "Habitat": "Urban and rural areas",
+          "Food": "Omnivore (seeds, insects)",
+          "Lifespan": "3-5 years"
+        },
+        "description": "Small passerine birds with stout bodies, found in most parts of the world."
+      },
+      "swallow": {
+        "image": "../Birds/content_images/swallow.jpg",
+        "information": {
+          "Animal Name": "Swallow",
+          "Kingdom": "Animalia",
+          "Species": "<i>Hirundinidae spp.</i>",
+          "Habitat": "Open areas near water",
+          "Food": "Insectivore",
+          "Lifespan": "4-8 years"
+        },
+        "description": "Aerial feeders with streamlined bodies, known for long migratory patterns."
+      }
+    },
+    "fish": {
+      "catfish": {
+        "image": "../Fish/content_images/catfish.jpg",
+        "information": {
+          "Animal Name": "Catfish",
+          "Kingdom": "Animalia",
+          "Species": "<i>Siluriformes</i>",
+          "Habitat": "Freshwater ecosystems",
+          "Food": "Omnivore (insects, plants)",
+          "Lifespan": "8-20 years"
+        },
+        "description": "Named for their whisker-like barbels, bottom-dwelling fish with over 3,000 species."
+      },
+      "dolphin": {
+        "image": "../Fish/content_images/dolphin.jpg",
+        "information": {
+          "Animal Name": "Dolphin Fish (Mahi-Mahi)",
+          "Kingdom": "Animalia",
+          "Species": "<i>Coryphaena hippurus</i>",
+          "Habitat": "Tropical oceans",
+          "Food": "Carnivore (small fish)",
+          "Lifespan": "4-5 years"
+        },
+        "description": "Fast-growing surface-dwelling fish with iridescent colors, not to be confused with marine mammals."
+      },
+      "goldfish": {
+        "image": "../Fish/content_images/goldfish.jpg",
+        "information": {
+          "Animal Name": "Goldfish",
+          "Kingdom": "Animalia",
+          "Species": "<i>Carassius auratus</i>",
+          "Habitat": "Domestic aquariums",
+          "Food": "Omnivore (flakes, plants)",
+          "Lifespan": "10-15 years"
+        },
+        "description": "Popular freshwater aquarium fish, capable of recognizing human faces."
+      },
+      "koi": {
+        "image": "../Fish/content_images/koi.jpg",
+        "information": {
+          "Animal Name": "Koi",
+          "Kingdom": "Animalia",
+          "Species": "<i>Cyprinus rubrofuscus</i>",
+          "Habitat": "Ornamental ponds",
+          "Food": "Omnivore (pellets, algae)",
+          "Lifespan": "25-35 years"
+        },
+        "description": "Colorful ornamental carp varieties highly valued in Japanese culture."
+      },
+      "rohu": {
+        "image": "../Fish/content_images/rohu.jpg",
+        "information": {
+          "Animal Name": "Rohu Fish",
+          "Kingdom": "Animalia",
+          "Species": "<i>Labeo rohita</i>",
+          "Habitat": "South Asian rivers",
+          "Food": "Omnivore (plankton, algae)",
+          "Lifespan": "10-15 years"
+        },
+        "description": "Important food fish in South Asia, member of the carp family."
+      },
+      "shark": {
+        "image": "../Fish/content_images/shark.jpg",
+        "information": {
+          "Animal Name": "Shark",
+          "Kingdom": "Animalia",
+          "Species": "<i>Selachimorpha</i>",
+          "Habitat": "Global oceans",
+          "Food": "Carnivore (fish, seals)",
+          "Lifespan": "20-30 years"
+        },
+        "description": "Apex predators with cartilaginous skeletons and electroreceptive capabilities."
+      },
+      "tuna": {
+        "image": "../Fish/content_images/tuna.jpg",
+        "information": {
+          "Animal Name": "Tuna",
+          "Kingdom": "Animalia",
+          "Species": "<i>Thunnini spp.</i>",
+          "Habitat": "Open oceans",
+          "Food": "Carnivore (fish, squid)",
+          "Lifespan": "10-15 years"
+        },
+        "description": "Fast-swimming migratory fish reaching speeds up to 75 km/h."
+      },
+      "whale": {
+        "image": "../Fish/content_images/whale.jpg",
+        "information": {
+          "Animal Name": "Whale Shark",
+          "Kingdom": "Animalia",
+          "Species": "<i>Rhincodon typus</i>",
+          "Habitat": "Tropical oceans",
+          "Food": "Filter feeder (plankton)",
+          "Lifespan": "70-100 years"
+        },
+        "description": "Largest fish species, gentle filter-feeder growing up to 18 meters long."
+      }
+    },
+    "insects": {
+      "beetle": {
+        "image": "../Insects/content_images/beetle.jpg",
+        "information": {
+          "Animal Name": "Beetle",
+          "Kingdom": "Animalia",
+          "Species": "<i>Coleoptera</i>",
+          "Habitat": "Global ecosystems",
+          "Food": "Varied (plants, debris)",
+          "Lifespan": "1-3 years"
+        },
+        "description": "Largest insect order with over 400,000 species, featuring hardened wing cases."
+      },
+      "butterfly": {
+        "image": "../Insects/content_images/butterfly.jpg",
+        "information": {
+          "Animal Name": "Butterfly",
+          "Kingdom": "Animalia",
+          "Species": "<i>Lepidoptera</i>",
+          "Habitat": "Flowering areas",
+          "Food": "Nectarivore",
+          "Lifespan": "2-4 weeks"
+        },
+        "description": "Colorful pollinators undergoing complete metamorphosis (egg to caterpillar to chrysalis)."
+      },
+      "fly": {
+        "image": "../Insects/content_images/fly.jpg",
+        "information": {
+          "Animal Name": "House Fly",
+          "Kingdom": "Animalia",
+          "Species": "<i>Musca domestica</i>",
+          "Habitat": "Human habitats",
+          "Food": "Liquids (rotting matter)",
+          "Lifespan": "15-30 days"
+        },
+        "description": "Common pests with compound eyes, capable of walking upside down."
+      },
+      "grasshopper": {
+        "image": "../Insects/content_images/grasshopper.jpg",
+        "information": {
+          "Animal Name": "Grasshopper",
+          "Kingdom": "Animalia",
+          "Species": "<i>Caelifera</i>",
+          "Habitat": "Grasslands",
+          "Food": "Herbivore",
+          "Lifespan": "1 year"
+        },
+        "description": "Jumping insects producing sound through stridulation, important agricultural pests."
+      },
+      "honeybee": {
+        "image": "../Insects/content_images/honeybee.jpg",
+        "information": {
+          "Animal Name": "Honeybee",
+          "Kingdom": "Animalia",
+          "Species": "<i>Apis mellifera</i>",
+          "Habitat": "Hives",
+          "Food": "Nectar/pollen",
+          "Lifespan": "Worker: 6 weeks, Queen: 2-3 years"
+        },
+        "description": "Social pollinators producing honey, with complex hive communication through dance."
+      },
+      "hornet": {
+        "image": "../Insects/content_images/hornet.jpg",
+        "information": {
+          "Animal Name": "Hornet",
+          "Kingdom": "Animalia",
+          "Species": "<i>Vespa crabro</i>",
+          "Habitat": "Woodlands",
+          "Food": "Carnivore (other insects)",
+          "Lifespan": "1 year (queens survive winter)"
+        },
+        "description": "Largest eusocial wasps, capable of destroying honeybee hives."
+      },
+      "ladybug": {
+        "image": "../Insects/content_images/ladybug.jpg",
+        "information": {
+          "Animal Name": "Ladybug",
+          "Kingdom": "Animalia",
+          "Species": "<i>Coccinellidae</i>",
+          "Habitat": "Gardens",
+          "Food": "Aphids",
+          "Lifespan": "1-2 years"
+        },
+        "description": "Beneficial predators with bright coloration warning of toxicity."
+      },
+      "mosquito": {
+        "image": "../Insects/content_images/mosquito.jpg",
+        "information": {
+          "Animal Name": "Mosquito",
+          "Kingdom": "Animalia",
+          "Species": "<i>Culicidae</i>",
+          "Habitat": "Near standing water",
+          "Food": "Nectar (females blood-feed)",
+          "Lifespan": "2 weeks - 1 month"
+        },
+        "description": "Disease vectors transmitting malaria and dengue, only females bite."
+      }
+    },
+    "mammals": {
+      "tiger": {
+        "image": "../Mammals/content_images/tiger.jpg",
+        "information": {
+          "Animal Name": "Tiger",
+          "Kingdom": "Animalia",
+          "Species": "<i>Panthera tigris</i>",
+          "Habitat": "Tropical forests, grasslands, mangroves",
+          "Food": "Carnivore (deer, wild boar)",
+          "Lifespan": "10-15 years (wild)"
+        },
+        "description": "The largest cat species, recognizable by its dark vertical stripes on reddish-orange fur."
+      },
+      "lion": {
+        "image": "../Mammals/content_images/lion.jpg",
+        "information": {
+          "Animal Name": "Lion",
+          "Kingdom": "Animalia",
+          "Species": "<i>Panthera leo</i>",
+          "Habitat": "Grasslands, savannas",
+          "Food": "Carnivore (zebras, wildebeest)",
+          "Lifespan": "10-14 years (wild)"
+        },
+        "description": "Social felines living in prides, males distinguished by their majestic manes."
+      },
+      "jaguar": {
+        "image": "../Mammals/content_images/jaguar.jpg",
+        "information": {
+          "Animal Name": "Jaguar",
+          "Kingdom": "Animalia",
+          "Species": "<i>Panthera onca</i>",
+          "Habitat": "Rainforests, swamps",
+          "Food": "Carnivore (capybaras, caimans)",
+          "Lifespan": "12-15 years (wild)"
+        },
+        "description": "Largest American big cat with distinctive rosette patterns on its coat."
+      },
+      "wolf": {
+        "image": "../Mammals/content_images/wolf.jpg",
+        "information": {
+          "Animal Name": "Wolf",
+          "Kingdom": "Animalia",
+          "Species": "<i>Canis lupus</i>",
+          "Habitat": "Forests, tundra, grasslands",
+          "Food": "Carnivore (elk, moose)",
+          "Lifespan": "6-8 years (wild)"
+        },
+        "description": "Highly social predators known for their pack hunting strategies."
+      },
+      "camel": {
+        "image": "../Mammals/content_images/camel2.jpg",
+        "information": {
+          "Animal Name": "Camel",
+          "Kingdom": "Animalia",
+          "Species": "<i>Camelus bactrianus</i>",
+          "Habitat": "Deserts",
+          "Food": "Herbivore (grasses, grains)",
+          "Lifespan": "40-50 years"
+        },
+        "description": "Desert-adapted mammals with distinctive humps storing fat reserves."
+      },
+      "cat": {
+        "image": "../Mammals/content_images/cat.jpg",
+        "information": {
+          "Animal Name": "Cat",
+          "Kingdom": "Animalia",
+          "Species": "<i>Felis catus</i>",
+          "Habitat": "Domestic, various environments",
+          "Food": "Carnivore (small animals)",
+          "Lifespan": "12-18 years (domestic)"
+        },
+        "description": "Domesticated carnivorous mammals, one of humanity's oldest companions."
+      },
+      "cow": {
+        "image": "../Mammals/content_images/cow.jpg",
+        "information": {
+          "Animal Name": "Cow",
+          "Kingdom": "Animalia",
+          "Species": "<i>Bos taurus</i>",
+          "Habitat": "Domesticated, farms",
+          "Food": "Herbivore (grass, hay)",
+          "Lifespan": "18-22 years"
+        },
+        "description": "Domesticated ungulates vital for dairy and agricultural production."
+      },
+      "dog": {
+        "image": "../Mammals/content_images/dog.jpeg",
+        "information": {
+          "Animal Name": "Dog",
+          "Kingdom": "Animalia",
+          "Species": "<i>Canis lupus familiaris</i>",
+          "Habitat": "Domestic, various environments",
+          "Food": "Omnivore (commercial food)",
+          "Lifespan": "10-13 years"
+        },
+        "description": "Domesticated descendants of wolves, known as 'man's best friend'."
+      },
+      "elephant": {
+        "image": "../Mammals/content_images/elephant.jpg",
+        "information": {
+          "Animal Name": "Elephant",
+          "Kingdom": "Animalia",
+          "Species": "<i>Loxodonta africana</i>",
+          "Habitat": "Savannas, forests",
+          "Food": "Herbivore (grasses, fruits)",
+          "Lifespan": "60-70 years"
+        },
+        "description": "Largest land animals with distinctive trunks and ivory tusks."
+      },
+      "hippo": {
+        "image": "../Mammals/content_images/hippo.jpg",
+        "information": {
+          "Animal Name": "Hippo",
+          "Kingdom": "Animalia",
+          "Species": "<i>Hippopotamus amphibius</i>",
+          "Habitat": "Rivers, lakes",
+          "Food": "Herbivore (grasses)",
+          "Lifespan": "40-50 years"
+        },
+        "description": "Semi-aquatic mammals with massive bodies and large canine tusks."
+      },
+      "horse": {
+        "image": "../Mammals/content_images/horse.jpg",
+        "information": {
+          "Animal Name": "Horse",
+          "Kingdom": "Animalia",
+          "Species": "<i>Equus ferus caballus</i>",
+          "Habitat": "Domestic, grasslands",
+          "Food": "Herbivore (hay, grains)",
+          "Lifespan": "25-30 years"
+        },
+        "description": "Domesticated hoofed animals historically used for transportation."
+      },
+      "rhino": {
+        "image": "../Mammals/content_images/rhino.jpg",
+        "information": {
+          "Animal Name": "Rhino",
+          "Kingdom": "Animalia",
+          "Species": "<i>Ceratotherium simum</i>",
+          "Habitat": "Grasslands, savannas",
+          "Food": "Herbivore (grasses)",
+          "Lifespan": "40-50 years"
+        },
+        "description": "Massive herbivores with distinctive horned snouts, critically endangered."
+      }
+    },
+    "reptiles": {
+      "agama": {
+        "image": "../Reptiles/content_images/agama.jpg",
+        "information": {
+          "Animal Name": "Agama Lizard",
+          "Kingdom": "Animalia",
+          "Species": "<i>Agama agama</i>",
+          "Habitat": "Rocky deserts",
+          "Food": "Insectivore",
+          "Lifespan": "5-8 years"
+        },
+        "description": "Color-changing lizards with distinctive head-bobbing displays."
+      },
+      "chameleon": {
+        "image": "../Reptiles/content_images/chameleon.jpg",
+        "information": {
+          "Animal Name": "Chameleon",
+          "Kingdom": "Animalia",
+          "Species": "<i>Chamaeleonidae</i>",
+          "Habitat": "Trees/bushes",
+          "Food": "Insectivore",
+          "Lifespan": "2-3 years"
+        },
+        "description": "Famous for color-changing ability and projectile tongue."
+      },
+      "crocodile": {
+        "image": "../Reptiles/content_images/crocodile.jpg",
+        "information": {
+          "Animal Name": "Crocodile",
+          "Kingdom": "Animalia",
+          "Species": "<i>Crocodylidae</i>",
+          "Habitat": "Freshwater habitats",
+          "Food": "Carnivore",
+          "Lifespan": "70-100 years"
+        },
+        "description": "Semi-aquatic predators with strongest bite force (3,700 psi)."
+      },
+      "gecko": {
+        "image": "../Reptiles/content_images/gecko.jpg",
+        "information": {
+          "Animal Name": "Gecko",
+          "Kingdom": "Animalia",
+          "Species": "<i>Gekkota</i>",
+          "Habitat": "Warm climates",
+          "Food": "Insectivore",
+          "Lifespan": "5-20 years"
+        },
+        "description": "Wall-climbing lizards with unique toe pads."
+      },
+      "gharial": {
+        "image": "../Reptiles/content_images/gharial.jpg",
+        "information": {
+          "Animal Name": "Gharial",
+          "Kingdom": "Animalia",
+          "Species": "<i>Gavialis gangeticus</i>",
+          "Habitat": "Indian rivers",
+          "Food": "Piscivore",
+          "Lifespan": "40-60 years"
+        },
+        "description": "Critically endangered crocodilian with thin snout for fish hunting."
+      },
+      "komodo": {
+        "image": "../Reptiles/content_images/komodo.jpg",
+        "information": {
+          "Animal Name": "Komodo Dragon",
+          "Kingdom": "Animalia",
+          "Species": "<i>Varanus komodoensis</i>",
+          "Habitat": "Indonesian islands",
+          "Food": "Carnivore",
+          "Lifespan": "30 years"
+        },
+        "description": "Largest living lizard species with venomous bite."
+      },
+      "lizard": {
+        "image": "../Reptiles/content_images/lizard.jpg",
+        "information": {
+          "Animal Name": "Common Lizard",
+          "Kingdom": "Animalia",
+          "Species": "<i>Squamata</i>",
+          "Habitat": "Global",
+          "Food": "Insectivore",
+          "Lifespan": "1-10 years"
+        },
+        "description": "Diverse group of scaled reptiles with 6,000+ species."
+      },
+      "snake": {
+        "image": "../Reptiles/content_images/snake.jpg",
+        "information": {
+          "Animal Name": "Snake",
+          "Kingdom": "Animalia",
+          "Species": "<i>Serpentes</i>",
+          "Habitat": "Global",
+          "Food": "Carnivore",
+          "Lifespan": "5-25 years"
+        },
+        "description": "Limbless reptiles using venom/constriction for hunting."
+      }
+    }
+  }
+}
