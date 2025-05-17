@@ -48,7 +48,7 @@
     "description": "Jumping insects producing sound through stridulation, important agricultural pests."
   },
   "honeybee": {
-    "image": "../Insects/content_images/honeybee.jpg",
+    "image": "../Insects/content_images/honey.jpg",
     "information": {
       "Animal Name": "Honeybee",
       "Kingdom": "Animalia",
