@@ -2,7 +2,8 @@ const menuBar = document.querySelector(".burger");
 const sideBar = document.querySelector(".sidebar");
 const close = document.querySelector(".close");
 
-menuBar.addEventListener("click", () => {
+menuBar.addEventListener("click", (e) => {
+  e.preventDefault();
   showSideBar();
 });
 
@@ -13,7 +14,8 @@ const showSideBar = () => {
   sideBar.classList.add("show");
 };
 
-close.addEventListener("click", () => {
+close.addEventListener("click", (e) => {
+  e.preventDefault();
   closeSideBar();
 });
 
@@ -29,7 +31,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const category = urlParams.get('category');
   const animalKey = urlParams.get('animal').toLowerCase();
 
-  console.log('Searching for:', { category, animalKey });
+  // console.log('Searching for:', { category, animalKey });
 
   try {
     // 1. Construct category folder path
@@ -44,7 +46,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // 3. Parse JSON
     const animals = await response.json();
-    console.log('Available animals:', Object.keys(animals));
+    // console.log('Available animals:', Object.keys(animals));
 
     // 4. Validate animal exists
     if (!animals[animalKey]) {
