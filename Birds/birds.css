@@ -25,8 +25,10 @@ header {
   padding: 0.1rem 0;
   top: 0;
   left: 0;
-  background-color: rgba(178, 178, 178, 0.7);
+  background: linear-gradient(135deg, #e0e0e0 30%, #9a9999 50%, #8f8d8d 30%);
   backdrop-filter: blur(20px);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 header nav {
@@ -55,6 +57,7 @@ header ul a {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 1rem;
+  transition: all 0.2s ease;
 }
 
 .sidebar {
@@ -81,7 +84,9 @@ header ul a:hover {
   color: rgb(0, 0, 0);
   background-color: rgb(63, 63, 63, 0.1);
   border-radius: 1.2rem;
-  transition: 0.45s ease;
+  transform: translateY(-2px);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in;
 }
 
 .close {
@@ -176,14 +181,14 @@ header ul a:hover {
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 400px);
-  grid-template-rows: repeat(auto-fill, 400px);
+  grid-template-columns: repeat(auto-fill, 300px);
+  grid-template-rows: repeat(auto-fill, 300px);
   justify-content: space-evenly;
-  gap: 20px;
+  gap: 8px;
 }
 
 .content {
-  height: 400px;
+  height: 300px;
   background-color: rgb(240, 224, 255);
   border: 1px solid black;
   cursor: pointer;
@@ -274,13 +279,13 @@ header ul a:hover {
 }
 
 .tag {
-  height: 80px;
+  height: 49.7px;
   width: 100%;
   position: absolute;
   bottom: 0;
   background-color: black;
   z-index: 2;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   border: 1px solid black;
   color: rgb(255, 255, 255);

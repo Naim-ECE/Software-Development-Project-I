@@ -11,8 +11,8 @@
 ## New task
 
 <ul>
-  <li>Add four animals per row</li>
-  <li>Change the color of the navbar</li>
+  <li>Add four animals per row (Done)</li>
+  <li>Change the color of the navbar (Done)</li>
   <li>Categorize animals. Such for 'A' it will show all the animals that starts with 'A'</li>
   <li>Add a 'search' option</li>
 </ul>
