@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-const insects = [
+const animals = [
   { name: "Beetle", element: document.querySelector(".obj1") },
   { name: "Butterfly", element: document.querySelector(".obj2") },
   { name: "Fly", element: document.querySelector(".obj3") },
