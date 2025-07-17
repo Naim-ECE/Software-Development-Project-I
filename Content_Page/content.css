@@ -88,6 +88,17 @@ header ul a:hover {
   color: rgb(0, 0, 0);
 }
 
+.close svg {
+  color: white;
+  transition: transform 0.2s ease;
+}
+
+
+.close:hover svg {
+  color: black;
+  transform: rotate(90deg) scale(1.1);
+}
+
 .sidebar li:nth-child(n + 1) {
   width: 100%;
 }

@@ -58,6 +58,25 @@ header ul a {
   padding: 0 3rem;
 } */
 
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 85;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Sidebar styles */
 .sidebar {
   position: fixed;
   top: 0;
@@ -65,60 +84,105 @@ header ul a {
   height: 100vh;
   z-index: 90;
   width: 16.16%;
+  min-width: 250px;
   font-size: 2rem;
-  background-color: rgb(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(18px);
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
-  display: none;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   gap: 5%;
   padding-top: 60px;
-  transition: all 0.45s ease;
+  list-style: none;
+
+  /* Animation properties - starts hidden */
+  transform: translateX(100%);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-header ul a:hover {
-  color: rgb(0, 0, 0);
-  background-color: rgb(63, 63, 63, 0.1);
-  border-radius: 1.2rem;
-  transition: 0.45s ease;
+.sidebar.show {
+  transform: translateX(0);
 }
 
-.close {
-  color: rgb(0, 0, 0);
-}
-
-.sidebar li:nth-child(n + 1) {
+.sidebar li {
   width: 100%;
+  opacity: 0;
+  transform: translateX(20px);
+  transition: all 0.1s ease, opacity 0.2s ease, transform 0.2s ease;
+}
+
+.sidebar.show li {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Staggered animation for list items */
+.sidebar.show li:nth-child(1) {
+  transition-delay: 0.1s;
+}
+.sidebar.show li:nth-child(2) {
+  transition-delay: 0.15s;
+}
+.sidebar.show li:nth-child(3) {
+  transition-delay: 0.2s;
+}
+.sidebar.show li:nth-child(4) {
+  transition-delay: 0.25s;
+}
+.sidebar.show li:nth-child(5) {
+  transition-delay: 0.3s;
+}
+.sidebar.show li:nth-child(6) {
+  transition-delay: 0.35s;
+}
+.sidebar.show li:nth-child(7) {
+  transition-delay: 0.4s;
 }
 
 .sidebar li a {
-  color: rgb(0, 0, 0);
-}
-
-.sidebar li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
   display: block;
   width: 100%;
   padding: 0.5rem 1rem;
-  transition: color 0.45s ease;
+  transition: color 0.2s ease;
+  border-radius: 0.5rem;
 }
 
 .sidebar li:hover {
-  background-color: rgba(63, 63, 63, 0.5);
+  transition: all 0.1s ease;
+  background-color: rgba(255, 255, 255, 0.967);
   border-radius: 0.5rem;
 }
 
 .sidebar li:hover a {
-  color: white;
+  transition: all 0.2s ease;
+  color: rgb(0, 0, 0);
+  transform: scale(1.1);
 }
 
+.close {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.close svg {
+  color: white;
+  transition: transform 0.2s ease;
+}
+
+.close:hover svg {
+  color: black;
+  transform: rotate(90deg) scale(1.1);
+}
 .burger {
   padding-left: 1.8rem;
 }
 
 .show {
-  transition: 2s ease;
+  transition: all 0.3s ease;
 }
 
 .burger a {

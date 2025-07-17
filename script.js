@@ -7,6 +7,7 @@ const close = document.querySelector(".close");
 const modals = document.querySelector(".modals");
 const login = document.querySelector(".login");
 const signup = document.querySelector(".signup");
+const overlay = document.querySelector("#overlay");
 
 let popSign = () => {
   login.addEventListener("click", () => {
@@ -92,27 +93,40 @@ timeline
     "1.5"
   );
 
-menuBar.addEventListener("click", () => {
+menuBar.addEventListener("click", (e) => {
+  e.stopPropagation();
   showSideBar();
 });
 
 const showSideBar = () => {
-  sideBar.classList.remove("show");
-  sideBar.style.display = "flex";
-  void sideBar.offsetWidth;
   sideBar.classList.add("show");
+  overlay.classList.add("active");
+  document.body.style.overflow = "hidden";
 };
-
-close.addEventListener("click", () => {
-  closeSideBar();
-});
 
 const closeSideBar = () => {
   sideBar.classList.remove("show");
-  sideBar.style.display = "none";
-  void sideBar.offsetWidth;
-  // sideBar.classList.add("show");
+  overlay.classList.remove("active");
+  document.body.style.overflow = "";
 };
+
+close.addEventListener("click", (e) => {
+  e.preventDefault();
+  e.stopPropagation();
+  closeSideBar();
+});
+overlay.addEventListener("click", closeSideBar);
+
+sideBar.addEventListener("click", (e) => {
+  e.stopPropagation();
+});
+
+// Keyboard support (ESC key)
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && sideBar.classList.contains("show")) {
+    closeSideBar();
+  }
+});
 
 // Array.from(parallex_el)
 //   .filter((el) => !el.classList.contains("text"))
