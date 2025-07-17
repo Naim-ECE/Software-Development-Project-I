@@ -16,6 +16,9 @@ body {
 
 .logo {
   height: 110px;
+  /* Remove left: 0 as it's not needed in flexbox */
+  flex-shrink: 0; /* Prevent logo from shrinking */
+  margin-right: auto;
 }
 
 header {
@@ -36,10 +39,15 @@ header nav {
   max-width: 1800px;
   margin: 0 auto;
   padding: 0 2rem;
-  /* height: 50px; */
   display: flex;
-  justify-content: space-between;
   align-items: center;
+}
+
+/* Ensure the logo container stays on the left */
+.logo-container {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto; /* Don't grow or shrink */
 }
 
 header ul {
@@ -47,6 +55,8 @@ header ul {
   list-style: none;
   align-items: center;
   flex-wrap: wrap;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
 }
 
 header ul a {
@@ -246,7 +256,6 @@ header ul a:hover {
   color: white;
   transition: transform 0.2s ease;
 }
-
 
 .close:hover svg {
   color: black;
