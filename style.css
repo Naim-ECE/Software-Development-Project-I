@@ -17,6 +17,36 @@ body {
   height: 110px;
 }
 
+header nav > ul > li > a.login,
+header nav > ul > li > a.signup {
+  position: relative;
+  padding-bottom: 5px;
+  transition: all 0.3s ease;
+}
+
+header nav > ul > li > a.login::after,
+header nav > ul > li > a.signup::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2rem;
+  background-color: rgb(255, 255, 255, 0.1);
+  transition: width 0.1s ease;
+}
+
+header nav > ul > li > a.login:hover,
+header nav > ul > li > a.signup:hover {
+  color: rgb(0, 0, 0);
+  transition: color 0.1s ease;
+}
+
+header nav > ul > li > a.login:hover::after,
+header nav > ul > li > a.signup:hover::after {
+  width: 100%;
+}
+
 header {
   position: absolute;
   width: 100%;
