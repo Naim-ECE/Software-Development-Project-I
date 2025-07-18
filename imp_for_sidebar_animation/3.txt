@@ -1,0 +1,36 @@
+const overlay = document.querySelector("#overlay");
+
+menuBar.addEventListener("click", (e) => {
+  e.stopPropagation();
+  showSideBar();
+});
+
+const showSideBar = () => {
+  sideBar.classList.add("show");
+  overlay.classList.add("active");
+  document.body.style.overflow = "hidden";
+};
+
+const closeSideBar = () => {
+  sideBar.classList.remove("show");
+  overlay.classList.remove("active");
+  document.body.style.overflow = "";
+};
+
+close.addEventListener("click", (e) => {
+  e.preventDefault();
+  e.stopPropagation();
+  closeSideBar();
+});
+overlay.addEventListener("click", closeSideBar);
+
+sideBar.addEventListener("click", (e) => {
+  e.stopPropagation();
+});
+
+// Keyboard support (ESC key)
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && sideBar.classList.contains("show")) {
+    closeSideBar();
+  }
+});
