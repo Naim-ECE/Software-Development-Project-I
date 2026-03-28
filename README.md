@@ -16,3 +16,5 @@
   <li>Categorize animals. Such for 'A' it will show all the animals that starts with 'A' (Done)</li>
   <li>Add a 'search' option (Done)</li>
 </ul>
+
+<p>Do check it out - <a href="https://naim-ece.github.io/Software-Development-Project-I/">Click here!</a></p>
